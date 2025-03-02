@@ -103,5 +103,5 @@ p1
 p2<-make_vis_plot_ewma(cad_ewma_avgs,cuttoff_date=as.Date("2024-10-01"))
 p2
 
-ggsave('cad_lasso.png',p1,width=10, height=6)
+ggsave('cad_ewma.png',p1,width=10, height=6)
 
